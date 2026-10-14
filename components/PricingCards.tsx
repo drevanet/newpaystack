@@ -3,10 +3,10 @@
 import { useState } from "react";
 
 const plans = [
-  { key: "1m", name: "1 Month", price: "₦2,940", detail: "Billed monthly" },
-  { key: "3m", name: "3 Months", price: "₦7,000", detail: "Billed every 3 months" },
-  { key: "6m", name: "6 Months", price: "₦11,705", detail: "Billed every 6 months" },
-  { key: "1y", name: "1 Year", price: "₦19,280", detail: "Billed annually" },
+  { key: "1m", name: "1 Month", price: "₦3,590", detail: "Billed monthly" },
+  { key: "3m", name: "3 Months", price: "₦8600", detail: "Billed every 3 months" },
+  { key: "6m", name: "6 Months", price: "₦14,000", detail: "Billed every 6 months" },
+  { key: "1y", name: "1 Year", price: "₦25,850", detail: "Billed annually" },
 ] as const;
 
 export function PricingCards() {
